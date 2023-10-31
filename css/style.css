@@ -9,6 +9,7 @@
 .container {
     max-width: 100%;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
@@ -75,7 +76,7 @@ li>a {
 
 
 .box-1stView h1 {
-    font-size: 60px;
+    font-size: 50px;
     padding-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -83,7 +84,7 @@ li>a {
 
 h1+p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .box-1stView a {
@@ -98,6 +99,10 @@ h1+p {
     margin-right: 20px;
     background-color: white;
     padding: 10px 20px;
+}
+
+a span {
+    font-size: 20px;
 }
 
 .box-1stView a:last-child {
