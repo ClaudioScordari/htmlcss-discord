@@ -137,7 +137,7 @@ main .container section>* {
     padding-top: 40px;
 }
 
-.sec1-col_right>h2 {
+h2 {
     font-size: 45px;
 }
 
@@ -150,7 +150,7 @@ h2+p {
 /* SECTION 2 */
 
 main section:nth-child(2) {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .box-section_2 {
