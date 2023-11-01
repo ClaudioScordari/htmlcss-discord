@@ -160,15 +160,38 @@ main section:nth-child(2) {
 /* SECTION 4 */
 
 main section:last-child {
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
-.green {
-    background-color: green;
+.last-sec-box {
     width: 100%;
-    height: 1000px;
     margin: auto;
-    border: 2px dashed black;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.item4-img>img {
+    width: 100%;
+}
+
+.box-section_4 h3 {
+    font-size: 35px;
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    background-size: contain;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+h3+a {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #7289DA;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
 }
 
 /* FOOTER */
