@@ -279,14 +279,9 @@ li>a {
     width: 25%;
 }
 
-hr {
-    border: 1px solid white;
-}
-
 /* FOOTER SECONDA SEZIONE  */
 
 .footer-bottom {
-    padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -294,15 +289,22 @@ hr {
 .footer-bottom>div {
     width: 75%;
     margin: auto;
-    background-color: #7FFFD4;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #7289DA;
 }
 
 .logo-end,
 .logo-end+div {
     margin: 20px 0;
     padding: 10px;
-    background-color: #FFB6C1;
-    border: 2px dashed black;
+}
+
+.footer-bottom>div div:nth-of-type(2n)>a {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #7289DA;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
 }
