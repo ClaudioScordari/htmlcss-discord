@@ -198,6 +198,11 @@ h3+a {
 
 /* FOOTER - TOP */
 
+footer h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
 .footer-top,
 .footer-bottom {
     background-color: #23272A;
@@ -205,7 +210,7 @@ h3+a {
 
 .columns-box {
     margin: auto;
-    padding-top: 10px;
+    padding-top: 70px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -214,22 +219,64 @@ h3+a {
     display: flex;
 }
 
+footer h3,
+footer h4 {
+    color: #7289DA;
+}
+
+.ita-flag {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ita-flag>img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+select {
+    background-color: #23272A;
+    color: white;
+    border: none;
+}
+
+.link-img>* {
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.link-img a:nth-of-type(2n) {
+    margin: 0 20px;
+}
+
 .left-column {
-    background-color: #F08080;
     width: calc((100% / 4) * 2);
-    border: 2px dashed black;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+ul>* {
+    color: white;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+li>a {
+    font-size: 15px;
 }
 
 .right-columns {
     width: 100%;
     display: flex;
-    border: 2px dashed black;
 }
 
 .right-columns>* {
-    background-color: #20B2AA;
     width: 25%;
-    border: 2px dashed white;
 }
 
 hr {
